@@ -1,19 +1,15 @@
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
 
-// Your web app's Firebase configuration
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+
 const firebaseConfig = {
-  apiKey: "AIzaSyDt_pFn-B_7boglW4ThHNaFF54_pLkjeNU",
-  authDomain: "farmsim-50260.firebaseapp.com",
-  databaseURL: "https://farmsim-50260-default-rtdb.europe-west1.firebasedatabase.app",
-  projectId: "farmsim-50260",
-  storageBucket: "farmsim-50260.appspot.com",
-  messagingSenderId: "407008051577",
-  appId: "1:407008051577:web:d15731390ee2f306fb6fa8",
-  measurementId: "G-ZKFZCY3V3E"
+  apiKey: "AIzaSyDfkJvO-fL1sTYl7AKyPN4BpVzBRSdNV3w",
+  authDomain: "rasbel-c7e93.firebaseapp.com",
+  projectId: "rasbel-c7e93",
+  storageBucket: "rasbel-c7e93.appspot.com",
+  messagingSenderId: "555204065537",
+  appId: "1:555204065537:web:69bd0d512823d0bc318300",
+  measurementId: "G-J35ZT3CLP8"
 };
 
 // Initialize Firebase
